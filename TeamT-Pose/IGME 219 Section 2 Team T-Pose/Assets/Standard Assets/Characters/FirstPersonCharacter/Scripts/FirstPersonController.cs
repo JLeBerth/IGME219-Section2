@@ -196,7 +196,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 newCameraPosition = m_Camera.transform.localPosition;
                 newCameraPosition.y = m_OriginalCameraPosition.y - m_JumpBob.Offset();
-            }
+				if (m_Camera.transform.position.z < -47)
+				{
+					newCameraPosition = new Vector3(-8.35f, 3.57f, 43.47f);
+				}
+			}
             m_Camera.transform.localPosition = newCameraPosition;
         }
 
