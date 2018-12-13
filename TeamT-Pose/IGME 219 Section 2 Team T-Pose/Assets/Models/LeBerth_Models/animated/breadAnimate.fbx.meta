@@ -1,21 +1,31 @@
 fileFormatVersion: 2
-guid: ae7d168b40328714c9328a0c24292719
+guid: 09ecaf066e1272d41801ffb949d5412d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: wingedbread
-    400000: //RootNode
-    400002: wingedbread
-    2100000: lambert3SG
-    2300000: wingedbread
-    3300000: wingedbread
-    4300000: wingedbread
+    100000: bread_Center
+    100002: bread_elbow
+    100004: bread_elbow_left
+    100006: bread_shoulder
+    100008: bread_shoulder_left
+    100010: //RootNode
+    100012: FlyingBread:polySurface1
+    400000: bread_Center
+    400002: bread_elbow
+    400004: bread_elbow_left
+    400006: bread_shoulder
+    400008: bread_shoulder_left
+    400010: //RootNode
+    400012: FlyingBread:polySurface1
+    2100000: FlyingBread_lambert3SG1
+    4300000: FlyingBread:polySurface1
+    7400000: Fly
     9500000: //RootNode
     11100000: //RootNode
+    13700000: FlyingBread:polySurface1
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -40,7 +50,35 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fly
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -64,7 +102,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
@@ -84,10 +122,10 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: wingedbread
+    rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
