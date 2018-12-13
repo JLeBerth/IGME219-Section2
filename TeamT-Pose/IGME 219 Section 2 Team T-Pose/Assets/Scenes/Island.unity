@@ -2452,7 +2452,7 @@ GameObject:
   - component: {fileID: 647339638}
   - component: {fileID: 647339637}
   m_Layer: 0
-  m_Name: BreadAxis
+  m_Name: JL_Breads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4350,7 +4350,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 35fd6124e867b224a949380df0405524, type: 3}
       propertyPath: m_Name
-      value: StreetLamp1
+      value: JL_StreetLamp1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 35fd6124e867b224a949380df0405524, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4429,6 +4429,10 @@ Prefab:
     - target: {fileID: 400000, guid: 6ca667473bfafcc4eb2b9997d2fb2b18, type: 3}
       propertyPath: m_LocalPosition.z
       value: -2.356
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 6ca667473bfafcc4eb2b9997d2fb2b18, type: 3}
+      propertyPath: m_Name
+      value: JL_Ornament
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ca667473bfafcc4eb2b9997d2fb2b18, type: 3}
@@ -5843,7 +5847,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 3e33287f9a429954a8b6ea52aee8b6d6, type: 2}
     - target: {fileID: 100002, guid: 35fd6124e867b224a949380df0405524, type: 3}
       propertyPath: m_Name
-      value: StreetLamp2
+      value: JL_StreetLamp2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35fd6124e867b224a949380df0405524, type: 3}
