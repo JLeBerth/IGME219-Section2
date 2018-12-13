@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour {
 
+    public float theta = 5;
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -13,6 +15,6 @@ public class Rotate : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		transform.Rotate(transform.up, Time.deltaTime * 5);
+		transform.Rotate(transform.up, Time.deltaTime * theta);
 	}
 }
